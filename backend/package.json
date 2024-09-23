@@ -1,0 +1,24 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "server with apollo",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js localhost 4000"
+    },
+    "author": "Yurkmez",
+    "license": "ISC",
+    "dependencies": {
+        "apollo-datasource-rest": "^3.7.0",
+        "apollo-server": "^3.13.0",
+        "graphql": "^16.9.0",
+        "lodash": "^4.17.21",
+        "node-fetch": "^3.3.2",
+        "shorthash": "^0.0.2"
+    },
+    "devDependencies": {
+        "@types/graphql": "^14.5.0",
+        "nodemon": "^3.1.7"
+    },
+    "type": "module"
+}
